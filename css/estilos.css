@@ -27,3 +27,24 @@ body {
     border-color: orangered;
     opacity: 80%;    
 }
+
+.openings {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#sinopsis {
+    margin: 6% 6%;
+    background-color: whitesmoke;
+    border-style: double;
+    border-color: orange;
+    border-width: 10px;
+    border-radius: 20px;    
+    font-size: larger;
+    line-height: 50px;
+    letter-spacing: 1px;
+}

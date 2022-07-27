@@ -140,5 +140,47 @@ footer {
     bottom: 0;
 }
 
+#marina {
+    margin: 4%;    
+    border-radius: 20px;
+    border-style: groove;
+    background-color: rgb(168, 218, 218);
+    border-color: orangered;
+    opacity: 80%;    
+}
+
+#listaRangos {    
+    background-color: whitesmoke;
+    border-style: double;
+    border-color: powderblue;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+#marines {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 8%;
+    background-color: whitesmoke;
+    border-style: double;
+    border-color: powderblue;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.marineBtn {
+    min-height: 120px;
+}
+
+.marineCard {
+    width: 300px;
+}
+
+.marineList div {
+    min-width: 300px;
+}
+
+
+
 
 

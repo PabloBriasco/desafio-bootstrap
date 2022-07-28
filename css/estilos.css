@@ -1,6 +1,6 @@
 body {
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(9,9,121,1) 78%, rgba(21,0,255,1) 100%);
+    background: rgb(0,212,255);
+    background: linear-gradient(0deg, rgba(0,212,255,1) 8%, rgba(2,0,36,1) 91%, rgba(9,9,121,1) 100%);
     background-size: 100% 100%;
     min-height: 100vh;
     position: relative;
@@ -179,6 +179,72 @@ footer {
 .marineList div {
     min-width: 300px;
 }
+
+#otrosPiratas {
+    margin: 4%;    
+    border-radius: 20px;
+    border-style: groove;
+    background-color: rgb(168, 218, 218);
+    border-color: orangered;
+    opacity: 80%;    
+}
+
+.yonkoIntro {    
+    padding: 10px;    
+    border-radius: 20px;    
+    background-color: black;
+    color: white;
+}
+
+.fuenteYonko {
+    color:orange;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 20px;
+}
+
+#shichibukai {
+    padding: 10px;   
+    border-radius: 20px;    
+    background-color: black;
+    color: white;
+}
+
+#shichibukai2 img {
+    max-width: 260px;
+}
+
+.accordion-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.formulario {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border-style: groove;
+    background-color: whitesmoke;
+    opacity: 80%;
+}
+
+.textArea {
+    height: 500px;
+}
+
+.textoForm {    
+    margin-left: 45%;
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,32,121,1) 35%, rgba(0,212,255,1) 100%);
+    writing-mode: vertical-lr;
+    color: white;
+    text-orientation: upright;
+    width: fit-content;
+}
+
+
+
 
 
 
